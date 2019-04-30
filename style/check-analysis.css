@@ -1,0 +1,55 @@
+.check-analysis {
+    /* width: 100%; */
+    height: auto;
+    margin-bottom: 50px;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.contai-check {
+    width: 320px;
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    padding: 29px 34px;
+    margin: 20px 20px;
+    transition: .4s;
+    cursor: pointer;
+}
+.contai-check:hover {
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.chk-content {
+    display: flex;
+    flex-direction: column;
+}
+.fa-check-square {
+    font-size: 44px;
+    color: dodgerblue;
+}
+.chk-content {
+    width: 100%;
+}
+.chk-content span {
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0 0 10px 39px;
+    color: #58468C;
+}
+.chk-content p {
+    font-size: 20px;
+    margin: 0 0 0 39px;
+    color: #716C80;
+}
+
+@media screen and (max-width:800px) {
+    .contai-check {
+        width: 80%;
+    }
+}
+
+

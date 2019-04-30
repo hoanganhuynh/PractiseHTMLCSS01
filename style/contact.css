@@ -1,0 +1,99 @@
+.contact {
+    padding: 100px 20px;
+    height: auto;
+    background: #343352;
+    display: flex;
+    padding-left: 40px;
+    flex-wrap: wrap;
+}
+.social {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300px;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+.social img {
+    margin-bottom: 20px;
+}
+.social p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 25px;
+}
+.icon-social {
+    margin: 15px 0;
+    display: flex;
+    flex-direction: row;
+}
+.icon-social div {
+    font-size: 28px;
+    background: #fff;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 50%;
+    transition: .3s;
+}
+.icon-social div:hover {
+    background: #000;
+    color: #fff;
+    transform: rotate(-360deg);
+}
+.address {
+    height: auto;
+    width: auto;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+.address h2, .feedback h2{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.address p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.feedback {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.feedback input {
+    width: 400px;
+    height: 40px;
+    background: #F5F6FF;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 0 15px;
+    font-size: 15px;
+    border: none;
+}
+.feedback input:nth-child(3) {
+    height: 70px;
+    display: flex;
+}
+.feedback span {
+    background: #FF3A2D;
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: #fff;
+    width: 50px;
+    text-align: center;
+    font-size: 20px;
+    transition: .3s;
+}
+.feedback span:hover {
+    transform: translateY(-7px);
+}
